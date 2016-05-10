@@ -5,6 +5,7 @@ import com.niopullus.NioLib.scene.DynamicImageBackground;
 import com.niopullus.NioLib.scene.dynscene.World;
 import com.niopullus.NioLib.scene.guiscene.*;
 import com.niopullus.NioLib.scene.guiscene.Label;
+import com.niopullus.app.InitScene;
 
 import java.awt.*;
 
@@ -50,6 +51,10 @@ public class LevelSelectionScene extends GUIScene {
     }
 
     public void buttonActivate(int index) {
+        if (index == 0) {
+            presentScene(new InitScene());
+            return;
+        }
         LevelScene scene = new LevelScene();
         World world = World.loadWorld("level" + index + ".niolibworld", scene);
         scene.setWorld(world);

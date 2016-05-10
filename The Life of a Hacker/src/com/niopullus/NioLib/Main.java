@@ -36,7 +36,7 @@ public class Main extends JPanel implements Runnable, KeyListener, MouseListener
         jarPathf = jarPathf.replace("%20", " ");
         new File(jarPathf + "\\" + Config.DIRNAME).mkdir();
         new File(jarPathf + "\\" + Config.DIRNAME + "\\" + "worlds").mkdir();
-        System.out.println("making it here:" + jarPathf + "\\" + Config.DIRNAME);
+        //System.out.println("making it here:" + jarPathf + "\\" + Config.DIRNAME);
         Config.init();
     }
     private static JFrame jFrame;
