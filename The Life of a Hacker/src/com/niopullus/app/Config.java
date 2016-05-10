@@ -6,6 +6,7 @@ import com.niopullus.NioLib.scene.dynscene.tile.MultiTileReference;
 import com.niopullus.NioLib.scene.dynscene.tile.TileReference;
 import com.niopullus.NioLib.utilities.Utilities;
 import com.niopullus.app.bots.CableBot;
+import com.niopullus.app.bots.Firewall;
 import com.niopullus.app.bots.KeyBot;
 import com.niopullus.app.bots.SecurityBot;
 import com.niopullus.app.tiles.Door;
@@ -50,6 +51,7 @@ public class Config {
         TileReference.registerTile("ladder", "ladder.png", 0.3, 0, false, new Ladder());
         TileReference.registerTile("levelexit", "levelexit.png", 0.3, 0, false, new LevelExit());
         QuestionHandler.compileQuestions();
+        NodeReference.registerNode("firewall", 3, 3, new Firewall());
     }
 
 }

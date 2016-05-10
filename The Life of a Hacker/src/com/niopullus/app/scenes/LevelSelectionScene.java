@@ -2,15 +2,11 @@ package com.niopullus.app.scenes;
 
 import com.niopullus.NioLib.Main;
 import com.niopullus.NioLib.scene.DynamicImageBackground;
-import com.niopullus.NioLib.scene.Scene;
 import com.niopullus.NioLib.scene.dynscene.World;
 import com.niopullus.NioLib.scene.guiscene.*;
 import com.niopullus.NioLib.scene.guiscene.Label;
-import com.niopullus.app.InitScene;
-import com.niopullus.app.levels.Level1;
 
 import java.awt.*;
-import java.awt.Button;
 
 /**
  * Created by Owen on 4/18/2016.

@@ -23,7 +23,7 @@ public class QuestionHandler {
         q2answer.add("Encapsulation");
         q2answer.add("Scanning");
         q2answer.add("Penetration");
-        Question q2 = new Question("Which of these processes is NOT part of the systematic process of hacking?", q2answer, 2);
+        Question q2 = new Question("Which of these processes is NOT part of the systematic process of hacking?", q2answer, 1);
         QuestionHandler.questions.add(q2);
         ArrayList<String> q3answer = new ArrayList<String>();
         q3answer.add("gather information essential to an attack and enable an attacker to obtain complete profile of an organization's security posture.");
