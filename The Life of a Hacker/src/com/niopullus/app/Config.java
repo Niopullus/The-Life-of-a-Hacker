@@ -22,7 +22,7 @@ import java.util.ArrayList;
  */
 public class Config {
 
-    public static final String NIOLIBVERSION = "v0.02";
+    public static final String NIOLIBVERSION = "v0.03";
     public static final int IMGWIDTH = 1920;
     public static final int IMGHEIGHT = 1080;
     public static final double WINDOWSCALE = 0.5;
